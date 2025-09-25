@@ -177,7 +177,8 @@ const res = await axios.post("http://localhost:5000/orders/", {
 
 console.log("Order response:", res.data);
 
-alert("✅ Order placed successfully for ${item.name}");
+//alert('✅ Order placed successfully for ${item.name}!');
+alert('✅ Order placed successfully');
 
 } catch (err) {
 
@@ -265,4 +266,5 @@ alert("Failed to place order. Try again.");
 };
 
 export default Menu;
+
 
